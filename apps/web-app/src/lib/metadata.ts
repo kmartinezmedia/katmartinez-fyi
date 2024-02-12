@@ -1,10 +1,9 @@
 import type { Metadata } from 'next';
 
-export const siteUrl = 'https://my-website.com';
-export const siteName = 'My Website';
+export const siteUrl = 'https://katmartinez.fyi';
+export const siteName = 'Kat Martinez';
 export const siteDescription =
-  'lorem ipsum dolor sit amet, consectetur adipiscing elit.';
-const twitterHandle = '@TODO';
+  'Designer, engineer, and writer, living in Tampa, Florida.';
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -26,7 +25,21 @@ export const metadata = {
     locale: 'en_US',
     type: 'website',
   },
-  keywords: [],
+  keywords: [
+    'Kat Martinez',
+    'Katherine Martinez',
+    'Design System',
+    'Design Systems',
+    'DesignOps',
+    'Design Operations',
+    'Portfolio',
+    'Design Engineer',
+    'Design Engineering',
+    'Engineer',
+    'Engineering',
+    'Design',
+    'Designer',
+  ],
   robots: {
     index: true,
     follow: true,
@@ -39,8 +52,8 @@ export const metadata = {
     },
   },
   twitter: {
-    site: twitterHandle,
-    creator: twitterHandle,
+    site: '@katmartinez08',
+    creator: '@katmartinez08',
     card: 'summary_large_image',
     images: [
       {
